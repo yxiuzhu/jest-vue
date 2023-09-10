@@ -1,7 +1,6 @@
 <template>
   <div class="undocontent">
     <div data-test="count" class="title">
-      <span> 正在进行： </span>
       <span> {{ list.length }} </span>
     </div>
     <ul>

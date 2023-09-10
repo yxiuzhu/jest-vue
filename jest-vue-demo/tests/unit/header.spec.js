@@ -23,9 +23,9 @@ it("header输入框内容初始化为空", () => {
 it("header中数据发送变化时，input也跟着变", () => {
   const wrapper = shallowMount(Header);
   const input = wrapper.find('[data-test = "input"]');
-  input.setValue("皇帝");
+  input.setValue("emm");
   const inputValue = wrapper.vm.$data.inputValue;
-  expect(inputValue).toBe("皇帝");
+  expect(inputValue).toBe("emm");
 });
 
 it("header输入为空时回车应该没有反应", () => {
